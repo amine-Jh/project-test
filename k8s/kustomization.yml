@@ -3,6 +3,8 @@ kind: Kustomization
 resources:
   - dep.yml
   - svc.yml
+  - SvcAccount.yml
+  - ingress.yml
 
 commonLabels:
   app.kubernetes.io/name: project-test
